@@ -1,0 +1,51 @@
+1. Normal Distribution (Gaussian Distribution)
+    How the data is distributed can tell us a lot about the data. There are over 20 different types of data distributions commonly used in data science 
+    to develop a  model. The normal distribution is one of the most common data distributions seen in nature, for example, the distribution of the heights 
+    of human beings. It is also called as Bell Curve.
+
+Properties:
+Parameters of a bell curve are :
+Mean - which determines the maximum height of the curve
+Standard deviation - which determines how wide should be the curve 
+The mean, median, and mode are same
+The distribution is symmetrical, in other words, the data points are symmetrically distributed around the mean value.
+
+
+
+
+2. Z score
+    It is a number that represents how far is, ie how many standard deviations away is a point located, measured from the mean value. 
+    So farther the point, greater will the z-score. It is also called  Standard score.
+    It generally varies from -3 to 3, also points beyond the limit can be considered as unusual data.
+
+
+
+3. Standard Normal Distribution
+    It is also called Z-distribution. It is nothing but a special case of normal distribution. The x values in the normal distribution are 
+    transformed into corresponding z values using the above equation. This process is called standardization and the resulting distribution is 
+    called Standard Normal Distribution. 
+
+Properties:
+The value of mean (μ=0) = 0
+The value of standard deviation (σ=1) = 1
+It is a probability distribution, and the area under the curve gives you probability values.
+Total are under the curve is 1 (100%)
+
+
+
+4. Empirical rule - 68–95–99.7 Rule
+
+    It is also called the 3 sigma rule. The empirical rule in statistics, also known as the 68-95-99 rule, states that for normal distributions, 
+    68% of observed data points will lie inside one standard deviation of the mean, 95% will fall within two standard deviations, 
+    and 99.7% will occur within three standard deviations.
+
+
+
+
+Stay Curious!  
+
+By Jerin Lalichan 
+
+
+
+  
