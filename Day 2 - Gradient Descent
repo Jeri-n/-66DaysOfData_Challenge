@@ -1,0 +1,51 @@
+Topics covered
+
+------------------
+
+💡Gradient descent
+
+💡Batch Gradient descent 
+
+💡Stochastic Gradient descent
+
+💡Mini-batch Gradient descent
+
+
+1. Gradient Descent
+    Gradient descent is an optimization algorithm which is commonly used to train machine learning models and neural networks. 
+    Optimization is the process of minimizing the cost function in an algorithm.
+    
+    
+    
+Types of Gradient descent :
+
+1. Batch Gradient descent 
+In this, all the training sample is used for calculations in each iteration, which makes this a time-consuming process if it's a large dataset. 
+ie, It uses all samples for one forward pass and then adjusts weights.
+
+2. Stochastic Gradient descent
+In this, not all the samples, but one sample selected randomly will undergo forward pass and the weight gets adjusted.
+
+3. Mini-batch Gradient descent
+In this, a batch of samples, selected randomly will undergo forward pass and weight gets adjusted.
+
+
+Gradient descent in Linear Regression
+
+In Linear regression, the cost function is the Mean squared error or root mean square error. 
+The parameters(θ) are the Slope and Intercept of the line. Our target is to reduce the cost function. 
+And it can be done by finding the best parameters ie, slope, and intercept. The best value is found using the gradient descent algorithm's iterations.
+
+
+The Gradient descent algorithm is given by:
+https://www.blogger.com/blog/post/edit/234288800122457788/8896770985518802771?hl=en#
+θj : Weights of the hypothesis.
+hθ(xi) : predicted y value for ith input. 
+j : Feature index number (can be 0, 1, 2, ......, n). 
+α : Learning Rate of Gradient Descent.
+
+After several iterations, the cost function will approach the global minima. So the iterations will stop either by 
+reaching the maximum number of steps or the slope of the cost function reaches very close to zero. The corresponding parameters 
+will be selected and applied to the model 
+
+
