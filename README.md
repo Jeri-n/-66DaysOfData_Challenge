@@ -17,4 +17,4 @@ Even if its a small theorem, or an algorithm or whatever it maybe, spend at leas
 
 I will be posting daily updates on my LinkedIn, On my GitHub repository, and in my blog as well.
 
-My Blog : 
+My Blog : https://thedatamatics.blogspot.com/
