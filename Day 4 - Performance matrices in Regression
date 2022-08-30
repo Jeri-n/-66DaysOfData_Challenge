@@ -1,0 +1,55 @@
+ Performance metrics in ML
+ ================================
+ 
+    Evaluation of the performance of a model is important. Performance metrics are certain measures to quantify the performance 
+    of the model during the training and testing phases. In Machine learning, there are generally two kinds of performance metrics in use. 
+    For regression models and for classification models. Below are the most popular metrics in use:
+
+Regression Metrics
+************************
+
+1. Mean Squared Error (MSE)
+-------------------------------------
+
+It is simply the average of the sum of the squares of the difference between the actual value and predicted values. 
+Due to the squaring in this equation, small errors are overestimated. Also because for that reason, this is very much prone to outliers. 
+
+
+2. Mean Absolute Error (MAE)
+-------------------------------------
+
+Mean Absolute Error is the average of the difference between the ground truth(actual value)  and the predicted values. 
+Since there is no squaring, the error estimated is not exaggerated or overestimated. Also, it is better with outliers than MSE. 
+Even though it gives the distance between the actual and predicted values, it doesn't give the direction of the error.
+
+
+3. Root mean squared error (RMSE)
+-------------------------------------
+
+This is basically the square root of MSE. Since the square root is taken, the problem of Overestimation in MSE is solved. 
+And it is also better with outliers because of that reason. 
+
+
+4. R² - Coefficient of determination
+-------------------------------------
+
+This is a metric calculated using other metrics. The higher value of R² indicates that the model was able to capture 
+well the variance in the target variable. But it's value will keep on increasing with the addition of more features, 
+even if the feature is not significant(ie. of less correlation). This is taken care of by Adjusted R²
+
+
+5. Adjusted R²
+-------------------------------------
+
+It will be always lower than R², as it adjusts for the increasing predictors and only shows improvement if there is a real improvement.
+
+
+
+  
+
+Stay Curious!  
+
+By Jerin Lalichan 
+
+
+
