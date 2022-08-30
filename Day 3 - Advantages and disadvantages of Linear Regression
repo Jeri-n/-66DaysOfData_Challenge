@@ -1,0 +1,59 @@
+1. Advantages of Linear Regression
+------------------------------------------
+
+It is Easy:
+__________
+
+Implementing linear regression is easy, and it is simpler to understand the output coefficients.
+
+
+Easy to avoid over-fitting problem:
+___________________________________
+
+Over-fitting can occur with linear regression, however, it can be prevented by adopting cross-validation,
+regularisation (L1 and L2) techniques, and some dimensionality reduction Techniques.
+
+
+
+
+2. Disadvantages of Linear Regression
+------------------------------------------
+
+It assumes a Linear relationship:
+__________________________________
+A linear model is one in which the independent variables are assumed to linearly explain the dependent variable, 
+such as a = bx + c. No exponential, logarithms, powers, etc. are permitted. Even though this is a great simplification, 
+the real world is not linear. In order to achieve a linear representation, using a linear model would either require us to 
+ignore some patterns or force us to use complex transformations.
+
+
+Data must be independent:
+_________________________
+
+In the general case, that is not always true. But most linear model assumes that the variables in the model are not collinear. 
+ie, they are not correlated.
+
+
+The issue with Outliers:
+________________________
+
+The linear model assumes the points lie in a straight line and are relatively closer to neighbor points.
+But in the case of outliers, since they are located too far, it'll be big trouble for the model performance.
+
+
+
+Summary:
+=================================================
+Linear Regression is a great technique to analyze the relationships between the variables but it isn’t recommended for most practical 
+applications because it over-simplifies real-world problems by assuming a linear relationship among the variables.
+
+   
+
+
+Stay Curious!  
+
+By Jerin Lalichan 
+
+
+
+  
