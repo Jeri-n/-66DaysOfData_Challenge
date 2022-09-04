@@ -1,0 +1,82 @@
+
+Performance metrics in ML
+    Evaluation of the performance of a model is important. Performance metrics are certain measures to quantify 
+    the performance of the model during the training and testing phases. In Machine learning, there are generally 
+    two kinds of performance metrics in use. For regression models and for classification models. Below are the most popular metrics in use:
+
+Classification Metrics
+
+Confusion Matrix (Not a metric but base to others)
+
+  It is a visualization of ground truth vs predicted values, in the form of a matrix. It is not exactly a performance 
+  metric but forms a basis for other metrics. Each cell consists of one term, which is an evaluation factor. 
+  
+TP
+This indicates how many positive cases are predicted correctly
+
+FP
+This indicates the number of cases in which the value is actually negative but predicted as positive. This factor represents Type-I error in statistics.
+
+FN
+This indicates the values which are actually positive but predicted as negative
+This factor represents Type-II error in statistics.
+
+TN
+This indicates the number of correct negative predictions
+
+
+
+
+2. Accuracy
+
+It is the simplest metric of all. It is the ratio of total correct predictions to the total number of predictions.
+
+
+
+
+3. Precision
+
+It is the ratio of true positives and total positives predicted. Here cost of acting is High. An example of a 
+case where precision is important is Spam classification.
+
+
+
+
+4. Recall
+
+A Recall is essentially the ratio of true positives to all the positives in the ground truth. Here cost of acting is low. 
+An example of a case where Recall is important is cancer prediction. 
+  
+  
+  
+  
+5. F1-Score
+
+The F1-score metric uses a combination of precision and recall. In fact, the F1 score is the harmonic mean of Recall 
+and Precision. Now, a high F1 score symbolizes high precision as well as high recall. It presents a good balance between 
+precision and recall and gives good results on imbalanced classification Problems.
+
+
+
+
+6. AUROC (Area under Receiver operating characteristics curve)
+
+It is generally known as AUC-ROC curves. It uses True positive rates and false positive rates.
+
+
+
+
+TPR represents how many positives are guessed correctly. FPR represents how many negatives are mistakenly considered as positives.
+To combine the FPR and the TPR into a single metric, we first compute the two metrics with many different thresholds for the 
+logistic regression, then plot them on a single graph. The resulting curve is called the ROC curve, and the metric we consider
+is the area under this curve, which we call AUROC.
+An excellent model has AUC near to 1 which means it has a good measure of separability. 
+A poor model has an AUC near 0 which means it has the worst measure of separability. And when AUC is 0.5, 
+it means the model has no class separation capacity.
+
+
+
+
+  
+
+
