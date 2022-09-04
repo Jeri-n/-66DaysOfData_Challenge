@@ -1,0 +1,52 @@
+KNN Algorithm
+
+It is a supervised Machine learning algorithm, which can be used for both regression and classification problems. In this algorithm: 
+
+The distance between the test data point and all the training  data points is calculated 
+
+The nearest K number of points is selected 
+
+In the case of Regression, the average of those points is taken as the predicted value.
+
+In the case of Classification, the probability for each class is calculated and the output will be the class with the highest probability.
+
+
+Two types of distances: https://thedatamatics.blogspot.com/2022/09/day-6-k-nearest-neighbor-knn-algorithm.html
+ Euclidean distance
+
+ Manhattan distance
+
+
+KNN is a Lazy Learner?
+Generally, algorithms can be of two types, lazy learners and eager learners. Eager learners make a generalization 
+with the training data set before receiving test data in order to predict the output of test data. But lazy learner, 
+say KNN, it doesn't make a generalization, ie, no model is created with the training data. Instead, it waits until the 
+arrival of test data to do the math. So basically, eager learners work during training and work less during testing. 
+It's just reverse in the case of KNN.
+
+
+
+Advantages of KNN 
+It is very simple and easy to execute
+
+Easy to understand the math behind the algorithm
+
+No training is needed
+
+No hyperparameter tuning required
+
+Doesn't make any assumptions about the distribution of data
+
+
+
+Disadvantages of KNN 
+Since it doesn't create a model, it requires a lot of storage space to store the training data
+
+It takes time to calculate the distance from each test point to all of the training data points.
+
+Finding the optimum value of K.
+
+Not suitable for higher dimensional data
+
+
+
