@@ -1,0 +1,22 @@
+
+
+
+Central Limit Theorem
+
+    The central limit theorem states that the distribution of means of samples taken from a large population, with replacement, 
+    approaches a Normal distribution, even if the population is not normally distributed.
+
+
+    As we increase the number of samples etc., the graph of the sample means will approach a normal distribution.
+    The sample size must be 30 or higher for the central limit theorem to stand.
+
+    One of the most important feature of the theorem is that the mean of the sample will be the mean of the entire population itself. 
+    If we calculate the mean of multiple samples of the population, add them up, and find their average, the result will be 
+    the estimate of the population mean.
+
+    The same applies when using standard deviation. If you calculate the standard deviation of all the samples in the population, 
+    add them up, and find the average, the result will be the standard deviation of the entire population.
+
+
+   
+  
