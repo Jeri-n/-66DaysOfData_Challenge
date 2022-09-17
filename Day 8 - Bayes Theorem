@@ -1,0 +1,27 @@
+
+
+Bayes Theorem
+    Baye's theorem is an important theorem in statistics and probability which gives the probability of occurrence of an 
+    event that is biased by another event that has already occurred
+
+    In simple words, it determines the conditional probability of event A, given that event B has already occurred.
+
+
+
+
+Difference between Conditional probability and Bayes Theorem
+
+    Conditional probability: 
+
+        Conditional Probability is the probability of an event A that is based on the occurrence of another event B.
+
+
+
+    
+    Bayes Theorem:
+
+    Bayes's Theorem is derived using the definition of conditional probability. Baye's theorem formula includes two conditional probabilities.
+
+
+
+ 
